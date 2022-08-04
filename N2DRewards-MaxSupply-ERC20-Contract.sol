@@ -15,10 +15,10 @@ contract N2DRewards is ERC20, ERC20Burnable, Ownable {
 
   uint256 private _totalSupply;
   uint256 private MAXSUP;
-  uint256 constant MAXIMUMSUPPLY=1000000*10**18;
+  uint256 constant MAXIMUMSUPPLY=10000000*10**18;
 
-  constructor() ERC20("N2DRewards", "N2DR") { 
-      _mint(msg.sender, 1000000 * 10 ** 18);
+  constructor() ERC20("GPNRewards", "GPR") { 
+      _mint(msg.sender, 10000000 * 10 ** 18);
 
   }
 
